@@ -56,7 +56,7 @@
 #ifndef _ASSEMBLY_H
 #define _ASSEMBLY_H
 
-#include "typedefs.h"
+#include "common.h"
 
 #if defined ARM_ADS
 static __inline int MULSHIFT32(int x, int y)
